@@ -20,4 +20,4 @@ MSUScore <- cumsum(MSUscoring[,3])
 
 #Create a plot of UW score and MSU score on same axes
 plot(Time,Score,type="l",col="red")
-lines(MSUtime,MSUcumulative,col="green")
+lines(MSUtime,MSUScore,col="green")
