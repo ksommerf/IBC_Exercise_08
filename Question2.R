@@ -1,6 +1,10 @@
 #Kyle Sommerfield and Farai Musariri
+#Source this script to begin game
+
 #Generate a random number between 1 and 100
 number <- sample(1:100,1)
+
+#Set the variable input as a value outside the set of numbers
 input <- 0
 
 #Introduce the game to the player
